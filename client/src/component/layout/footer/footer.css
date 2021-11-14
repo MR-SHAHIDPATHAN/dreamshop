@@ -1,0 +1,84 @@
+
+
+footer{
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33 ,33);
+  color: wheat;
+  display: flex;
+  align-items: center;
+}
+
+.leftFooter{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.leftFooter > h4{
+  font-family: "Roboto";
+}
+
+
+.leftFooter >p {
+  text-align: center;
+  font-family: "Roboto";
+
+}
+
+
+.leftFooter > img{
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+
+.midFooter{
+  width: 60%;
+  text-align: center;
+}
+.midFooter > h1{
+  font-size: 4vmax;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
+}
+
+.midFooter > p{
+  font-family: "Roboto";
+  max-width: 60%;
+  margin: 1vmax auto;
+
+
+}
+
+.rightFooter{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.rightFooter h4{
+  font-family: "Roboto";
+  text-decoration: underline;
+}
+
+.rightFooter > a {
+  text-decoration: none;
+  color: wheat;
+  font-family: "Roboto";
+  margin: 10px 0px;
+
+  transition: all 1s;
+}
+
+.rightFooter > a:hover{
+  color: red;
+}
+
+
