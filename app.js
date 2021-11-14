@@ -39,10 +39,10 @@ app.use("/api/v1" , user)
 app.use("/api/v1" , order)
 app.use("/api/v1" , payment)
 
-app.use(express.static(path.join(__dirname,"../client/build")));
+app.use(express.static(path.join(__dirname,"./backend/client/build")));
 // console.log((path.join(__dirname,"../client/build")));
 app.get("*",(req ,res)=>{
-  res.sendFile(path.resolve(__dirname,"../client/build/index.html"))
+  res.sendFile(path.resolve(__dirname,"./backend/client/build/index.html"))
 
 })
 
